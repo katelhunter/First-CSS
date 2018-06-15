@@ -1,0 +1,22 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+h1 {
+	color: #1c261c;
+	text-align: center;
+}
+
+p {
+	color: #1c261c;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
