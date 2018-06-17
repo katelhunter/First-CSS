@@ -17,7 +17,7 @@ p {
 	color: #1c261c;
 }
 
-.nav li {
-	list-style: none;
-	display: inline-block;
+article {
+	border-style: hidden;
+	margin: 30px;
 }
