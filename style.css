@@ -7,9 +7,17 @@ body {
 	background-size: cover;
 }
 
-h1 {
-	color: #1c261c;
+.nav {
+	background-color: white;
+	list-style-type: none;
 	text-align: center;
+}
+
+.nav li {
+	display: inline-block;
+	font-size: 17px;
+	margin: 10px, 10px;
+	padding: 20px;
 }
 
 p {
@@ -20,4 +28,9 @@ p {
 article {
 	border-style: hidden;
 	margin: 30px;
+}
+
+h1 {
+	color: #1c261c;
+	text-align: center;
 }
