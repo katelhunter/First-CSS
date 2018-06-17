@@ -8,16 +8,43 @@ body {
 }
 
 .nav {
-	background-color: white;
+	background-color: rgba(2, 38, 54, 0.2);
 	list-style-type: none;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	padding: 20px 0px 20px 0px;
 	text-align: center;
 }
 
 .nav li {
 	display: inline-block;
 	font-size: 17px;
-	margin: 10px, 10px;
-	padding: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.nav a:link {
+	text-decoration: none;
+	color: red;
+}
+
+.nav a:visited {
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	color: white;
+}
+
+.nav a:hover {
+	background-color: rgba(2, 38, 54, 0.3);
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: -10px;
+	padding: 20px 10px 20px 10px;
 }
 
 p {
@@ -31,6 +58,7 @@ article {
 }
 
 h1 {
+	font-family: 'Open Sans', sans-serif;
 	color: #1c261c;
 	text-align: center;
 }
