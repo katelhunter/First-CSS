@@ -2,11 +2,12 @@
 	Property: value;
 }*/
 
+/*background image*/
 body {
 	background-image: url(backgroundimage.jpg);
 	background-size: cover;
 }
-
+/*navigation links*/
 .nav {
 	background-color: rgba(2, 38, 54, 0.2);
 	list-style-type: none;
@@ -27,19 +28,17 @@ body {
 
 .nav a:link {
 	text-decoration: none;
-	color: red;
+	color: black;
 }
 
 .nav a:visited {
 	text-decoration: none;
 	color: black;
 }
-.nav a:hover {
-	color: white;
-}
 
 .nav a:hover {
-	background-color: rgba(2, 38, 54, 0.3);
+	color: white;
+	background-color: rgba(2, 38, 54, 0.2);
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -47,18 +46,68 @@ body {
 	padding: 20px 10px 20px 10px;
 }
 
-p {
-	font-family: 'Open Sans', sans-serif;
-	color: #1c261c;
+/*flex container*/
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-article {
+/*elements within flex container*/
+
+.flex-container h1 {
 	border-style: hidden;
-	margin: 30px;
-}
-
-h1 {
+	margin: 2em;
 	font-family: 'Open Sans', sans-serif;
-	color: #1c261c;
+	color: white;
+	background-color: black;
 	text-align: center;
 }
+
+#summary {
+	border-style: hidden;
+	margin-left: 2em;
+	margin-right: 50em;
+	padding: 1em 2em;
+	font-family: 'Open Sans', sans-serif;
+	color: #1c261c;
+	background-color: white;
+}
+
+/*footer*/
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(2, 38, 54, 0.2);
+	color: white;
+	text-align: center;
+	font-size: 1em;
+}
+
+footer a {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
