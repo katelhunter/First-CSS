@@ -47,28 +47,36 @@ body {
 
 .flex-container {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
+	margin-top: 2em;
+	margin-left: 2.5em;
 }
 
 /*elements within flex container*/
 
 .flex-container h1 {
-	margin: 2em;
+	margin-left: 2em;
 	border-style: hidden;
+	width: 385px;
 	background-color: black;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
 	text-align: center;
 	color: white;
 }
 
 #summary {
-	margin-left: 2em;
 	border-style: hidden;
 	padding: 1em 2em;
-	background-color: white;
+	width: 20em;
+	background-color: rgba(255, 255, 255, 0.7);
 	font-family: 'Open Sans', sans-serif;
-	color: #1c261c;
+	font-weight: bold;
+	color: rgba(59, 68, 81);
+}
+
+#disclaimer {
+	color: white;
 }
 
 /*footer*/
@@ -79,9 +87,9 @@ footer {
 	bottom: 0;
 	left: 0;
 	background-color: rgba(2, 38, 54, 0.2);
-	color: white;
 	text-align: center;
 	font-size: 1em;
+	color: white;
 }
 
 footer a:link {
