@@ -9,21 +9,19 @@ body {
 }
 /*navigation links*/
 .nav {
+	margin: -10px;
+	padding: 20px 0px 20px 0px;
 	background-color: rgba(2, 38, 54, 0.2);
 	list-style-type: none;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-top: -10px;
-	padding: 20px 0px 20px 0px;
 	text-align: center;
 }
 
 .nav li {
 	display: inline-block;
-	font-size: 17px;
 	padding-left: 15px;
 	padding-right: 15px;
 	font-family: 'Oswald', sans-serif;
+	font-size: 17px;
 }
 
 .nav a:link {
@@ -37,13 +35,12 @@ body {
 }
 
 .nav a:hover {
-	color: white;
-	background-color: rgba(2, 38, 54, 0.2);
-	color: white;
-	text-align: center;
-	text-decoration: none;
 	margin: -10px;
 	padding: 20px 10px 20px 10px;
+	background-color: rgba(2, 38, 54, 0.2);
+	text-align: center;
+	text-decoration: none;
+	color: white;
 }
 
 /*flex container properties*/
@@ -57,57 +54,52 @@ body {
 /*elements within flex container*/
 
 .flex-container h1 {
-	border-style: hidden;
 	margin: 2em;
-	font-family: 'Open Sans', sans-serif;
-	color: white;
+	border-style: hidden;
 	background-color: black;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	color: white;
 }
 
 #summary {
-	border-style: hidden;
 	margin-left: 2em;
-	margin-right: 50em;
+	border-style: hidden;
 	padding: 1em 2em;
+	background-color: white;
 	font-family: 'Open Sans', sans-serif;
 	color: #1c261c;
-	background-color: white;
 }
 
 /*footer*/
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
 	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 	background-color: rgba(2, 38, 54, 0.2);
 	color: white;
 	text-align: center;
 	font-size: 1em;
 }
 
-footer a {
+footer a:link {
 	display: inline-block;
 	font-size: 1em;
-	font-weight: bold;
 	text-decoration: none;
+	color: rgb(141, 153, 178);
 }
 
+footer a:visited {
+	text-decoration: none;
+	color: rgb(141, 153, 178);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+footer a:hover {
+	text-decoration: none;
+	color: white;
+}
 
 
 
