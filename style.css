@@ -6,8 +6,11 @@
 
 body {
 	background-image: url(backgroundimage.jpg);
-	background-size: 85em;
+	min-height: 400px;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 /*navigation links*/
@@ -47,6 +50,8 @@ body {
 	color: white;
 }
 
+/*main header*/
+
 #main_header {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 35px;
@@ -54,19 +59,18 @@ body {
 	text-align: center;
 }
 
-/*flex container properties*/
+/*flex-container1 properties*/
 
-.flex-container {
+.flex-container1 {
 	display: flex;
 	flex-flow: column wrap;
 	margin-top: 2em;
 	margin-left: 3em;
-	width: 450px;
 }
 
-/*elements within flex container*/
+/*elements within flex-container1*/
 
-.flex-container .header {
+.flex-container1 .header {
 	margin-bottom: 0px;
 	border-style: hidden;
 	width: 225px;
@@ -78,46 +82,88 @@ body {
 	color: white;
 }
 
-#summary {
-	border-style: hidden;
-	padding: 1em 2em;
-	width: 20em;
+.flex-container1 #summary {
+	padding: 1em 2.25em;
+	width: 300px;
 	background-color: rgba(255, 255, 255, 0.7);
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	color: rgb(59, 68, 81);
 }
 
-#disclaimer {
-	color: white;
+/*flex-container2 properties*/
+
+.flex-container2 {
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 50px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
-/*footer*/
+/*elements within flex-container1*/
 
-footer {
-	width: 100%;
-	position: fixed;
+.flex-container2 #history {
+	padding: 2em 4em;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	color: rgb(59, 68, 81);
+}
+
+.flex-container2 #services {
+	padding: 2em 4em;
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+	color: rgb(59, 68, 81);
+}
+
+.flex-container2 h2 {
+	text-align: center;
+}
+
+/*flex-container3 properties*/
+
+.flex-container3 {
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 50px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+/*elements within flex-container3*/
+
+.flex-container3 .footer {
+	position: absolute;
+	right: 0;
 	bottom: 0;
 	left: 0;
+	height: 2em;
+	padding: 1em;
 	background-color: rgba(2, 38, 54, 0.2);
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 	font-size: 1em;
 	color: white;
 }
 
-footer a:link {
+/*footer links*/
+
+.footer a:link {
 	display: inline-block;
 	font-size: 1em;
 	text-decoration: none;
 	color: rgb(141, 153, 178);
 }
 
-footer a:visited {
+.footer a:visited {
 	text-decoration: none;
 	color: rgb(141, 153, 178);
 }
 
-footer a:hover {
+.footer a:hover {
 	text-decoration: none;
 	color: white;
 }
