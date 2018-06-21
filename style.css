@@ -95,14 +95,13 @@ body {
 .flex-container2 {
 	display: flex;
 	flex-flow: column wrap;
-	margin-top: 50px;
-	margin-left: -10px;
-	margin-right: -10px;
+	margin: 0px -10px;
 }
 
 /*elements within flex-container1*/
 
 .flex-container2 #history {
+	margin-top: 50px;
 	padding: 2em 4em;
 	background-color: white;
 	font-family: 'Lato', sans-serif;
@@ -111,11 +110,12 @@ body {
 }
 
 .flex-container2 #services {
+	margin-bottom: 56px;
 	padding: 2em 4em;
-	background-color: white;
+	background-color: darkgrey;
 	font-family: 'Lato', sans-serif;
 	text-align: justify;
-	color: rgb(59, 68, 81);
+	color: white;
 }
 
 .flex-container2 h2 {
@@ -129,7 +129,7 @@ body {
 	flex-flow: column wrap;
 	position: relative;
 	margin-bottom: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-left: -10px;
 	margin-right: -10px;
 }
@@ -141,7 +141,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	height: 2em;
+	height: 1.5em;
 	padding: 1em;
 	background-color: rgba(2, 38, 54, 0.2);
 	font-family: 'Lato', sans-serif;
