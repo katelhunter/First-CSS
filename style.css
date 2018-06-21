@@ -6,10 +6,9 @@
 
 body {
 	background-image: url(backgroundimage.jpg);
-	min-height: 400px;
+	max-height: 800px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-position: center;
 }
 
@@ -128,6 +127,8 @@ body {
 .flex-container3 {
 	display: flex;
 	flex-flow: column wrap;
+	position: relative;
+	margin-bottom: 0px;
 	margin-top: 50px;
 	margin-left: -10px;
 	margin-right: -10px;
